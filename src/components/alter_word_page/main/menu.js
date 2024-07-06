@@ -1,0 +1,6 @@
+export {default as AddWordPage} from './AddWordPage.vue'
+export {default as AddExamplePage} from './AddExamplePage.vue'
+export {default as UpdateWordPage } from './UpdateWordPage.vue'
+export {default as UpdateExamplePage} from './UpdateExamplePage.vue'
+export {default as DeleteWordPage} from './DeleteWordPage.vue'
+export {default as DeleteExamplePage} from './DeleteExamplePage.vue'

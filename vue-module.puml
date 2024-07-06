@@ -1,0 +1,247 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class node45 as "@element-plus/.../index.d.ts" {
+   Headset:
+   Microphone:
+   Search:
+   Switch:
+}
+class node21 as "@muguilin/.../main.d.ts" {
+   XfVoiceDictation:
+}
+class node40 as "@vue/.../index.d.ts"
+class node10 as "@vue/.../runtime-dom.d.ts" {
+   createApp:
+}
+class node39 as "assets/logo.png"
+class node43 as "axios/index.d.cts"
+class node8 as "axios/index.d.ts"
+class node12 as "book_page/BookPage.vue" {
+   BookPageMain:
+   PageHeader:
+}
+class node47 as "books_page/BooksPage.vue" {
+   BooksPageMain:
+   PageHeader:
+}
+class node50 as "components/HomePage.vue" {
+   PageHeader:
+}
+class node0 as "components/ToggleTheme.vue"
+class node23 as "components/WebSocket.vue" {
+   CryptoJS:
+   axios:
+}
+class node34 as "crypto-js/index.js"
+class node24 as "element-plus/.../css-vars.css"
+class node20 as "element-plus/.../index.css"
+class node33 as "element-plus/.../index.d.ts" {
+   ElMessageBox:
+}
+class node36 as "element-plus/.../index.d.ts" {
+   ElMessage:
+}
+class node38 as "element-plus/.../index.d.ts" {
+   ElNotification:
+}
+class node42 as "essay_grading_page/EssayGradingPage.vue" {
+   EssayGradingMain:
+   PageHeader:
+}
+class node14 as "frontend/vue.config.js" {
+   AutoImport:
+   Components:
+   index.d.ts:
+   resolvers.d.ts:
+}
+class node16 as "header/PageHeader.vue" {
+   ToggleTheme:
+}
+class node28 as "main/BookPageMain.vue" {
+   ElMessageBox:
+   axios:
+   h:
+}
+class node4 as "main/BooksPageMain.vue"
+class node15 as "main/EssayGradingMain.vue"
+class node44 as "main/QueryPageMain.vue" {
+   ElNotification:
+   Headset:
+   Microphone:
+   Search:
+   XfVoiceDictation:
+   axios:
+   index.css:
+}
+class node31 as "main/StartTestPageMain.vue" {
+   ElMessage:
+   axios:
+}
+class node35 as "main/TestPageMain.vue"
+class node37 as "main/TranslatePageMain.vue" {
+   Switch:
+   axios:
+}
+class node5 as "main/queryPhrasePageMain.vue" {
+   ElMessageBox:
+   Search:
+   axios:
+}
+class node41 as "query_page/QueryPage.vue" {
+   PageHeader:
+   QueryPageMain:
+}
+class node48 as "query_phrase_page/queryPhrasePage.vue" {
+   PageHeader:
+   QueryPhrasePageMain:
+}
+class node46 as "router/index.js" {
+   BookView:
+   BooksView:
+   EssayGradingView:
+   HomeView:
+   QueryPhraseView:
+   QueryView:
+   StartTestView:
+   TestView:
+   TranslateView:
+   WebSocket:
+   createRouter:
+   createWebHistory:
+}
+class node49 as "src/App.vue"
+class node22 as "src/main.js" {
+   App:
+   createApp:
+   createStore:
+   css-vars.css:
+   router:
+}
+class node1 as "start_test_page/StartTestPage.vue" {
+   PageHeader:
+   StartTestPageMain:
+}
+class node2 as "test_page/TestPage.vue" {
+   PageHeader:
+   TestPageMain:
+}
+class node7 as "translate_page/TranslatePage.vue" {
+   PageHeader:
+   TranslatePageMain:
+}
+class node3 as "unplugin-auto-import/.../webpack.d.ts"
+class node6 as "unplugin-vue-components/.../resolvers.d.ts"
+class node27 as "unplugin-vue-components/.../webpack.d.ts"
+class node30 as "views/BookView.vue" {
+   BookPage:
+}
+class node17 as "views/BooksView.vue" {
+   BooksPage:
+}
+class node18 as "views/EssayGradingView.vue" {
+   EssayGradingPage:
+}
+class node25 as "views/HomeView.vue"
+class node11 as "views/QueryView.vue" {
+   QueryPage:
+}
+class node29 as "views/StartTestView.vue" {
+   StartTestPage:
+}
+class node26 as "views/TestView.vue" {
+   TestPage:
+}
+class node51 as "views/TranslateView.vue" {
+   TranslatePage:
+}
+class node9 as "views/queryPhraseView.vue" {
+   QueryPhrasePage:
+}
+class vue {
+   h:
+}
+class node19 as "vue-router/.../vue-router.d.ts" {
+   createRouter:
+   createWebHistory:
+}
+class node13 as "vuex/.../index.d.ts" {
+   createStore:
+}
+
+node12  <-[#595959,plain]-  node16
+node12  <-[#595959,plain]-  node28
+node47  <-[#595959,plain]-  node16
+node47  <-[#595959,plain]-  node4
+node50  <-[#595959,plain]-  node16
+node23  <-[#595959,plain]-  node43
+node23  <-[#595959,plain]-  node8
+node23  <-[#595959,plain]-  node34
+node42  <-[#595959,plain]-  node16
+node42  <-[#595959,plain]-  node15
+node14  <-[#595959,plain]-  node40
+node14  <-[#595959,plain]-  node3
+node14  <-[#595959,plain]-  node6
+node14  <-[#595959,plain]-  node27
+node16  <-[#595959,plain]-  node39
+node16  <-[#595959,plain]-  node0
+node28  <-[#595959,plain]-  node43
+node28  <-[#595959,plain]-  node8
+node28  <-[#595959,plain]-  node33
+node28  <-[#595959,plain]-  vue
+node44  <-[#595959,plain]-  node45
+node44  <-[#595959,plain]-  node45
+node44  <-[#595959,plain]-  node45
+node44  <-[#595959,plain]-  node21
+node44  <-[#595959,plain]-  node43
+node44  <-[#595959,plain]-  node8
+node44  <-[#595959,plain]-  node20
+node44  <-[#595959,plain]-  node38
+node31  <-[#595959,plain]-  node43
+node31  <-[#595959,plain]-  node8
+node31  <-[#595959,plain]-  node36
+node37  <-[#595959,plain]-  node45
+node37  <-[#595959,plain]-  node43
+node37  <-[#595959,plain]-  node8
+node5   <-[#595959,plain]-  node45
+node5   <-[#595959,plain]-  node43
+node5   <-[#595959,plain]-  node8
+node5   <-[#595959,plain]-  node33
+node41  <-[#595959,plain]-  node16
+node41  <-[#595959,plain]-  node44
+node48  <-[#595959,plain]-  node16
+node48  <-[#595959,plain]-  node5
+node46  <-[#595959,plain]-  node23
+node46  <-[#595959,plain]-  node30
+node46  <-[#595959,plain]-  node17
+node46  <-[#595959,plain]-  node18
+node46  <-[#595959,plain]-  node25
+node46  <-[#595959,plain]-  node11
+node46  <-[#595959,plain]-  node29
+node46  <-[#595959,plain]-  node26
+node46  <-[#595959,plain]-  node51
+node46  <-[#595959,plain]-  node9
+node46  <-[#595959,plain]-  node19
+node46  <-[#595959,plain]-  node19
+node22  <-[#595959,plain]-  node10
+node22  <-[#595959,plain]-  node24
+node22  <-[#595959,plain]-  node46
+node22  <-[#595959,plain]-  node49
+node22  <-[#595959,plain]-  node13
+node1   <-[#595959,plain]-  node16
+node1   <-[#595959,plain]-  node31
+node2   <-[#595959,plain]-  node16
+node2   <-[#595959,plain]-  node35
+node7   <-[#595959,plain]-  node16
+node7   <-[#595959,plain]-  node37
+node30  <-[#595959,plain]-  node12
+node17  <-[#595959,plain]-  node47
+node18  <-[#595959,plain]-  node42
+node11  <-[#595959,plain]-  node41
+node29  <-[#595959,plain]-  node1
+node26  <-[#595959,plain]-  node2
+node51  <-[#595959,plain]-  node7
+node9   <-[#595959,plain]-  node48
+@enduml
